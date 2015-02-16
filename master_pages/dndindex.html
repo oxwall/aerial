@@ -1,0 +1,37 @@
+<div class="ow_header">
+	<div class="ow_canvas">
+		<div class="ow_page ow_top">
+			{component class='BASE_CMP_Console'}
+	    	<div class="ow_logo">
+	            <h2><a href="{$siteUrl}">{$siteName}</a></h2>
+	            <div class="ow_tagline">{$siteTagline}</div>
+	        </div>
+	      	<div class="header_img"></div>
+		</div>
+    </div>
+</div>
+<div class="ow_page_container ow_bg_color">
+	<div class="ow_canvas">
+		<div class="ow_page clearfix">
+		 {$main_menu}
+		    {if $heading}<h1 class="ow_stdmargin {$heading_icon_class}">{$heading}</h1>{/if}
+	        <div class="ow_dndindex clearfix">
+    	        {$content}
+    	    </div>
+		</div>
+	</div>
+</div>
+<div class="ow_footer">
+	<div class="ow_canvas">
+		<div class="ow_page clearfix">
+			{$bottom_menu}
+			<div class="ow_copyright">
+				{text key='base+copyright'}
+			</div>
+			<div style="float:right;padding-bottom: 25px;">
+				{$bottomPoweredByLink}
+			</div>
+		</div>
+	</div>
+</div>    
+{decorator name='floatbox'}
