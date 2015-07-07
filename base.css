@@ -2550,17 +2550,16 @@ span.ow_icon{
 
 /* ---- Button List styles ---- */
 
-ul.ow_bl{
+.ow_bl{
     padding: 0;
 }
 
-ul.ow_bl li{
-    float: right;
+.ow_bl li{
     list-style: none;
     margin-left: 5px;
 }
 
-ul.ow_bl a{
+.ow_bl a{
     display: block;
     background: url(images/consolebg.png) repeat-x center left;
     border-radius: 5px;
@@ -2572,7 +2571,7 @@ ul.ow_bl a{
     text-shadow: #f6f6f6 0px 1px 0;
 }
 
-ul.ow_bl a:hover {
+.ow_bl a:hover {
     background: #999;
     text-shadow: none;
     color: #fff;
@@ -5105,6 +5104,7 @@ html body .ow_sort_control {
 .ow_context_action:hover .ow_context_action_value,
 .ow_context_action.active .ow_context_action_value {
 	text-decoration: none;
+	text-shadow: none;
 }
 .ow_context_action:hover .ow_context_more,
 .ow_context_action.active .ow_context_more {
